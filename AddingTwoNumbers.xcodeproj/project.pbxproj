@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		482692AA18FC3833003BB0B5 /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482692A918FC3833003BB0B5 /* RSViewController.m */; };
+		482692AC18FC3857003BB0B5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482692AB18FC3857003BB0B5 /* Storyboard.storyboard */; };
 		48910D0118FAE640002A95C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48910D0018FAE640002A95C1 /* Foundation.framework */; };
 		48910D0318FAE640002A95C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48910D0218FAE640002A95C1 /* CoreGraphics.framework */; };
 		48910D0518FAE640002A95C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48910D0418FAE640002A95C1 /* UIKit.framework */; };
@@ -21,6 +23,7 @@
 		48910D2618FAE640002A95C1 /* AddingTwoNumbersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48910D2518FAE640002A95C1 /* AddingTwoNumbersTests.m */; };
 		48910D3118FAF17D002A95C1 /* RSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 48910D3018FAF17D002A95C1 /* RSAddition.m */; };
 		48910D3218FAF17D002A95C1 /* RSAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 48910D3018FAF17D002A95C1 /* RSAddition.m */; };
+		48910D3418FC06BE002A95C1 /* AddTwoNumberViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48910D3318FC06BE002A95C1 /* AddTwoNumberViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		482692A818FC3833003BB0B5 /* RSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSViewController.h; path = ../RSViewController.h; sourceTree = "<group>"; };
+		482692A918FC3833003BB0B5 /* RSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSViewController.m; path = ../RSViewController.m; sourceTree = "<group>"; };
+		482692AB18FC3857003BB0B5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		48910CFD18FAE640002A95C1 /* AddingTwoNumbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddingTwoNumbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48910D0018FAE640002A95C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		48910D0218FAE640002A95C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,6 +58,7 @@
 		48910D2518FAE640002A95C1 /* AddingTwoNumbersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddingTwoNumbersTests.m; sourceTree = "<group>"; };
 		48910D2F18FAF17D002A95C1 /* RSAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAddition.h; sourceTree = "<group>"; };
 		48910D3018FAF17D002A95C1 /* RSAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAddition.m; sourceTree = "<group>"; };
+		48910D3318FC06BE002A95C1 /* AddTwoNumberViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddTwoNumberViewControllerTests.m; path = ../AddTwoNumberViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +118,9 @@
 		48910D0618FAE640002A95C1 /* AddingTwoNumbers */ = {
 			isa = PBXGroup;
 			children = (
+				482692AB18FC3857003BB0B5 /* Storyboard.storyboard */,
+				482692A818FC3833003BB0B5 /* RSViewController.h */,
+				482692A918FC3833003BB0B5 /* RSViewController.m */,
 				48910D0F18FAE640002A95C1 /* RSAppDelegate.h */,
 				48910D1018FAE640002A95C1 /* RSAppDelegate.m */,
 				48910D1218FAE640002A95C1 /* Images.xcassets */,
@@ -135,6 +145,7 @@
 		48910D1F18FAE640002A95C1 /* AddingTwoNumbersTests */ = {
 			isa = PBXGroup;
 			children = (
+				48910D3318FC06BE002A95C1 /* AddTwoNumberViewControllerTests.m */,
 				48910D2518FAE640002A95C1 /* AddingTwoNumbersTests.m */,
 				48910D2018FAE640002A95C1 /* Supporting Files */,
 			);
@@ -228,6 +239,7 @@
 			files = (
 				48910D0B18FAE640002A95C1 /* InfoPlist.strings in Resources */,
 				48910D1318FAE640002A95C1 /* Images.xcassets in Resources */,
+				482692AC18FC3857003BB0B5 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48910D0D18FAE640002A95C1 /* main.m in Sources */,
+				482692AA18FC3833003BB0B5 /* RSViewController.m in Sources */,
 				48910D3118FAF17D002A95C1 /* RSAddition.m in Sources */,
 				48910D1118FAE640002A95C1 /* RSAppDelegate.m in Sources */,
 			);
@@ -258,6 +271,7 @@
 			files = (
 				48910D3218FAF17D002A95C1 /* RSAddition.m in Sources */,
 				48910D2618FAE640002A95C1 /* AddingTwoNumbersTests.m in Sources */,
+				48910D3418FC06BE002A95C1 /* AddTwoNumberViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +460,7 @@
 				48910D2B18FAE640002A95C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48910D2C18FAE640002A95C1 /* Build configuration list for PBXNativeTarget "AddingTwoNumbersTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +469,7 @@
 				48910D2E18FAE640002A95C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

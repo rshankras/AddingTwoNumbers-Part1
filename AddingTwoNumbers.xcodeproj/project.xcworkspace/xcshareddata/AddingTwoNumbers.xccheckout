@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>559D24EF-CB73-4416-ABE6-291C2787A3B5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AddingTwoNumbers</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>29B078A0-29CE-4AB1-B370-F075F9950518</key>
+		<string>https://github.com/rshankras/AddingTwoNumbers-Part1.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AddingTwoNumbers.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>29B078A0-29CE-4AB1-B370-F075F9950518</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rshankras/AddingTwoNumbers-Part1.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>29B078A0-29CE-4AB1-B370-F075F9950518</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>29B078A0-29CE-4AB1-B370-F075F9950518</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AddingTwoNumbers-Part2</string>
+		</dict>
+	</array>
+</dict>
+</plist>

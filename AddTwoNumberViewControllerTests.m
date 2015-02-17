@@ -63,7 +63,7 @@
     viewController.firstNumberTextField.text = @"10";
     viewController.secondNumberTextField.text = @"20";
     [viewController.addButton sendActionsForControlEvents: UIControlEventTouchUpInside];
-    viewController.resultTextField.text = @"30";
+    XCTAssertEqualObjects(viewController.resultTextField.text,@"30","Result of the textfield should be 30");
 }
 
 -(void)testResetButtonConnection {
